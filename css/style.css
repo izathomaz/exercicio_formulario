@@ -4,17 +4,80 @@
     box-sizing: border-box;
 }
 
-body {}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+
+}
 
 .metade {
+    width: 50vw;
+    height: 100dvh;
     background-color: #0D2C3B;
-    width: 50%;
 
+    img {
+        width: 100%;
+        padding: 100px;
+    }
 }
-.imagem {
-    margin: 80px;
-    width: 50%;
-}
-.form{
-    
+
+
+.form {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+
+        a {
+            font-weight: 400;
+        }
+    }
+
+    h3 {
+        text-align: center;
+        text-align: center;
+        font-size: 2rem;
+        margin-block: 30px;
+    }
+
+
+    input {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px #4d4c4c solid;
+        border-radius: 5px;
+    }
+
+    .senha {
+        display: flex;
+        margin-block: 20px;
+        justify-content: space-between;
+
+    }
+
+    button {
+        background-color: #00AAFF;
+        color: #ffff;
+        font-weight: 780;
+        width: 100%;
+        border: none;
+        border-radius: 3px;
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 17px;
+        text-align: center;
+        margin-block: 30px;
+    }
+
+
 }
